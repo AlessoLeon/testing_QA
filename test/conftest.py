@@ -1,7 +1,5 @@
 import pytest
 
-
-
-@pytest.fixsture
+@pytest.fixture
 def numeros():
     return 5,5
